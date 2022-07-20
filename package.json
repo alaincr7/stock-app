@@ -1,0 +1,19 @@
+{
+  "name": "stock-app",
+  "version": "1.0.0",
+  "description": "Aplicación full stack en vivo",
+  "main": "app.js",
+  "author": "Alain",
+  "license": "MIT",
+  "private": false,
+"scripts": {
+  "dev": "nodemon app.js"
+},
+
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
