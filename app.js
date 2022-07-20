@@ -6,7 +6,7 @@ app.get('/', (req, res)=>{
 
     console.log('peticion recibida')
 
-    res.send('<h1>hola mundo¡¡</h1>')
+    res.send('<h1>hola mundo!!</h1>')
 })
 
 app.listen(4000, () => {
