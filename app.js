@@ -8,7 +8,7 @@ app.get('/', (req, res)=>{
 
     console.log('peticion recibida')
 
-    res.send('<h1>hola mundo!!</h1>')
+    res.send('<h1>hola mundo!! sin .env</h1>')
 })
 
 const PORT = process.env.PORT || 4000
